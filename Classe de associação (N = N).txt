@@ -1,0 +1,15 @@
+Classe de associação (N = N)
+
+Agregação
+
+Passageiro ----n--------reserva----------n---Voo
+
+reserva vira uma nova classe
+
+Diagrama de Classe
+
+
+
+
+
+Passageiro (*String cpf, *String nome)--1-------(Diamante)-n-Reserva(*int cod, *LocalDateTime data, *int poltrona)-n-(Diamante)-----------1--Voo(*int num, *String origem, *String destino, *LocalDateTime data)
